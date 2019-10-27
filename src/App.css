@@ -1,22 +1,69 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
 .App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: #0bb634;
+}
+
+/* Login */
+.Login {
+  height: 100%;
+  width: 100%;
+}
+
+.LoginContainer {
+  padding: 200px 0;
+}
+
+.LoginInputContainer {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.LoginField {
+  width: 450px;
+  height: 80px;
+  padding: 12px 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.LoginField > div > input {
+  background-color: #ffffff;
+}
+
+button {
+  background-color: #15d642;
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 450px;
+  height: 60px;
 }
 
-.App-link {
-  color: #09d3ac;
+/* Home */
+
+p {
+  margin: 0px;
 }
+
+/* ItemList */
+
+
+/* RequestForm */
